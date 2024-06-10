@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; 
+    margin: 0; 
+    padding: 80px; 
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    display: flex; /* Add flex display to center items horizontally and vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5); /* Add shadow */
+    background-color: rgba(255, 255, 255, 0.8); /* Add opacity */
+    border-radius: 10px; /* Add border radius */
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+
+button:hover {
+    background-color: 	#90EE90;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+

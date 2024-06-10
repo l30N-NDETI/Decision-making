@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pexels-hikaique-125510.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; 
+    margin: 0; 
+    padding: 20px; 
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    color:	#FFFFFF;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:	#FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+button[type="button"] {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #808080;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #d3d3d3;
+}
+
+#advice-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#weather-icon {
+    width: 64px;
+    height: 64px;
+    margin: 20px;
+    border-radius: 50%;
+}
